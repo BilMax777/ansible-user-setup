@@ -1,0 +1,7 @@
+users:
+  - username: user1
+    shell: /bin/bash
+    pwd: "$6$.GxGhBvHzCg7wGRr$0ExwiJS1H/Q7jsEfTQ/8NTPbQuDN9x/GGxYff7dEafRIt1YDEBEjJRscsmLHTi1ubISHj6h2VqDDz.n/rTnVC/"
+  - username: user2
+    shell: /bin/bash
+    pwd: "$6$.GxGhBvHzCg7wGRr$0ExwiJS1H/Q7jsEfTQ/8NTPbQuDN9x/GGxYff7dEafRIt1YDEBEjJRscsmLHTi1ubISHj6h2VqDDz.n/rTnVC/"
