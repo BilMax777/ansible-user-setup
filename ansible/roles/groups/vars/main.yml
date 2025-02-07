@@ -1,0 +1,9 @@
+groups:
+        - backend
+         gid: 2001
+        - frontend
+         gid: 2002
+        - admins
+         gid: 2003
+        - devops
+         gid: 2004

@@ -1,7 +1,17 @@
 users:
-  - username: user1
+  - username: backend1
     shell: /bin/bash
-    pwd: "$6$.GxGhBvHzCg7wGRr$0ExwiJS1H/Q7jsEfTQ/8NTPbQuDN9x/GGxYff7dEafRIt1YDEBEjJRscsmLHTi1ubISHj6h2VqDDz.n/rTnVC/"
-  - username: user2
+    groups: "backend"
+    pwd: "$6$mGgAvUCnyYTUuLGB$1fvyDCwcc03K6xC0y0WZ9d9lj2jL1Ck33AlNbCrLVSqvjyOQk811xPAhobJI1KkxvlniPdXU9u9k9u6UDBwRb0"
+  - username: frontend1
     shell: /bin/bash
-    pwd: "$6$.GxGhBvHzCg7wGRr$0ExwiJS1H/Q7jsEfTQ/8NTPbQuDN9x/GGxYff7dEafRIt1YDEBEjJRscsmLHTi1ubISHj6h2VqDDz.n/rTnVC/"
+    groups: "frontend"
+    pwd: "$6$mGgAvUCnyYTUuLGB$1fvyDCwcc03K6xC0y0WZ9d9lj2jL1Ck33AlNbCrLVSqvjyOQk811xPAhobJI1KkxvlniPdXU9u9k9u6UDBwRb0"
+  - username: admins1
+    shell: /bin/bash
+    groups: "admins"
+    pwd: "$6$mGgAvUCnyYTUuLGB$1fvyDCwcc03K6xC0y0WZ9d9lj2jL1Ck33AlNbCrLVSqvjyOQk811xPAhobJI1KkxvlniPdXU9u9k9u6UDBwRb0"
+  - username: devops1
+    shell: /bin/bash
+    groups: "devops"
+    pwd: "$6$mGgAvUCnyYTUuLGB$1fvyDCwcc03K6xC0y0WZ9d9lj2jL1Ck33AlNbCrLVSqvjyOQk811xPAhobJI1KkxvlniPdXU9u9k9u6UDBwRb0"

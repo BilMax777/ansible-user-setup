@@ -1,14 +1,16 @@
 ---
 - name: Add users
-  user:
+  ansible.builtin.user:
     name: "{{ item.username }}"
     password: "{{ item.pwd }}"
+    groups: "{{ item.groups }}"
     shell: "{{ item.shell }}"
     state: present
+    password_expire_min: 0
   loop: "{{ users }}"
 
 - name: Create .ssh directory for users
-  file:
+  ansible.builtin.file:
     path: "/home/{{ item.username }}/.ssh"
     state: directory
     owner: "{{ item.username }}"
@@ -17,7 +19,7 @@
   loop: "{{ users }}"
 
 - name: Copy SSH public key to authorized_keys
-  copy:
+  ansible.builtin.copy:
     src: "/home/bil/.ssh/id_rsa.pub"
     dest: "/home/{{ item.username }}/.ssh/authorized_keys"
     owner: "{{ item.username }}"
